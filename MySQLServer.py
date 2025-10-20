@@ -10,7 +10,7 @@ try:
     connection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='Aigle"2025'  # ← Replace with your actual MySQL password
+        password='Aigle@2025'  # ← Replace this
     )
 
     if connection.is_connected():
